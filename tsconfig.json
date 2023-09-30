@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+  "outDir": "dist",
+  "target": "ES2017",
+  "declaration": false,
+  "module": "commonjs",
+  "esModuleInterop": true,
+  "noImplicitAny": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "strictNullChecks": true,
+  "sourceMap": true,
+  "lib": [
+      "es2017",
+      "dom",
+  ],
+  "baseUrl": ".",
+  "paths": {
+    "~*": ["./*"],
+    "@*": ["./src/*"],
+  }
+}
+}
